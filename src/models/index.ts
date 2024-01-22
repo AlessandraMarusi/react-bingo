@@ -9,9 +9,13 @@ export interface iCard {
 }
 
 // export type iRow = iNumber[];
-export type iColumn = [iNumber, iNumber, iNumber];
+export type iColumn = iNumber[];
 
 export interface iNumber {
   value: number;
   match: boolean;
+}
+
+export interface iDecimals {
+  [decimal: number]: number[];
 }
