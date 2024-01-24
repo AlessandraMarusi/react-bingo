@@ -8,7 +8,6 @@ export interface iCard {
   [decimal: number]: iColumn;
 }
 
-// export type iRow = iNumber[];
 export type iColumn = iNumber[];
 
 export interface iNumber {
