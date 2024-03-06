@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { iCard, iNumber } from "../../models";
 import { parseCardNumbers } from "./CardParser";
 import CardNumber from "../CardNumber";
-import "./CardStyl";
 
 interface iCardProps {
   numbers: iCard;
@@ -17,7 +16,7 @@ const Card = (props: iCardProps) => {
     <CardNumber num={num} key={i} />
   ));
 
-  return <div className="">{numbersElList}</div>;
+  return <div className="card-container">{numbersElList}</div>;
 };
 
 export default Card;

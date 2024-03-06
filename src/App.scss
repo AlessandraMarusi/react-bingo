@@ -1,5 +1,11 @@
-@import 'style/base/reset';
-@import 'style/base/breakpoints';
-@import 'style/layout/grid';
-@import 'style/utilities/variables';
+@import 'styles/base/reset';
+@import 'styles/base/breakpoints';
+
+@import 'styles/layout/grid';
+
+@import 'styles/utilities/variables';
+
+@import 'styles/components/card';
+
+@import 'styles/pages/bingo'
 

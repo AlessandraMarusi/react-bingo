@@ -77,9 +77,9 @@ const Bingo = () => {
   const cardsList = Cards.map((x, i) => <Card key={i} numbers={x} />);
 
   return (
-    <div>
+    <div className="container">
       <button onClick={generateCards}>GENERATE CARDS!</button>
-      <div className="container">{cardsList}</div>
+      <div className="cards-container">{cardsList}</div>
     </div>
   );
 };
